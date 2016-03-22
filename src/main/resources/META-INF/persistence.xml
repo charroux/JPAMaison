@@ -6,6 +6,8 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     
     <class>habitat.Maison</class>
+    <class>habitat.Proprietaire</class>
+    <class>habitat.Logement</class>
    
     <properties>
        	<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:hsql://localhost/"/>
